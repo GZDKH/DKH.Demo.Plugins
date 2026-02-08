@@ -1,0 +1,31 @@
+{
+  "id": "demo.sample-plugin",
+  "name": {
+    "en": "Sample Demo Plugin",
+    "ru": "Демо-плагин"
+  },
+  "version": "1.0.0",
+  "platformVersion": "1.0.0",
+  "server": {
+    "entryAssembly": "DKH.Demo.Plugins.SamplePlugin.dll",
+    "extensions": [
+      "DKH.Demo.Plugins.SamplePlugin.Extensions.SampleProductExtension",
+      "DKH.Demo.Plugins.SamplePlugin.Extensions.SampleCheckoutStep",
+      "DKH.Demo.Plugins.SamplePlugin.Extensions.SampleNavigationProvider",
+      "DKH.Demo.Plugins.SamplePlugin.Extensions.SampleWidgetProvider"
+    ]
+  },
+  "client": {
+    "remoteEntry": "http://localhost:3001/remoteEntry.js",
+    "exposedModules": ["DemoStatsWidget"],
+    "slotBindings": [
+      {
+        "slot": "admin.dashboard.widgets",
+        "module": "DemoStatsWidget",
+        "label": { "en": "Demo Stats", "ru": "Демо-статистика" },
+        "order": 900
+      }
+    ]
+  },
+  "dependencies": []
+}
