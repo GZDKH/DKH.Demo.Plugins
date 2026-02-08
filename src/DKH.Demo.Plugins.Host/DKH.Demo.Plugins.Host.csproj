@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <PackageReference Include="DKH.Platform" />
+    <PackageReference Include="DKH.Platform.Plugins.Host" />
+    <PackageReference Include="DKH.Platform.MinimalApi" />
+    <PackageReference Include="DKH.Platform.Logging" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DKH.Demo.Plugins.Host/DKH.Demo.Plugins.Host.csproj" />
+    <Project Path="src/DKH.Demo.Plugins.SamplePlugin/DKH.Demo.Plugins.SamplePlugin.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DKH.Demo.Plugins.Tests/DKH.Demo.Plugins.Tests.csproj" />
+  </Folder>
+</Solution>

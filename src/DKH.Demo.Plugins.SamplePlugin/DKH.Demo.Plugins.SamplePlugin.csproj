@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DKH.Platform.Plugins.Sdk" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="all">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="plugin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <Target Name="CopyPluginToHost" AfterTargets="Build">
+    <PropertyGroup>
+      <PluginOutputDir>$(SolutionDir)src/DKH.Demo.Plugins.Host/plugins/sample-plugin/</PluginOutputDir>
+    </PropertyGroup>
+    <MakeDir Directories="$(PluginOutputDir)" />
+    <Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="$(PluginOutputDir)" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(TargetDir)$(AssemblyName).deps.json" DestinationFolder="$(PluginOutputDir)" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(ProjectDir)plugin.json" DestinationFolder="$(PluginOutputDir)" SkipUnchangedFiles="true" />
+  </Target>
+
+</Project>
