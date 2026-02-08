@@ -21,7 +21,7 @@
 
   <Target Name="CopyPluginToHost" AfterTargets="Build">
     <PropertyGroup>
-      <PluginOutputDir>$(SolutionDir)src/DKH.Demo.Plugins.Host/plugins/sample-plugin/</PluginOutputDir>
+      <PluginOutputDir>$(MSBuildThisFileDirectory)../DKH.Demo.Plugins.Host/plugins/sample-plugin/</PluginOutputDir>
     </PropertyGroup>
     <MakeDir Directories="$(PluginOutputDir)" />
     <Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="$(PluginOutputDir)" SkipUnchangedFiles="true" />
