@@ -117,3 +117,8 @@ _ReSharper.Caches/
 
 # Plugin output directory (populated by build)
 src/DKH.Demo.Plugins.Host/plugins/
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal

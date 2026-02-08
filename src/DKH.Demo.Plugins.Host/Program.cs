@@ -1,5 +1,4 @@
 using DKH.Platform;
-using DKH.Platform.Health;
 using DKH.Platform.Logging;
 using DKH.Platform.MinimalApi;
 using DKH.Platform.Plugins;
@@ -10,10 +9,12 @@ var app = Platform
     .CreateWeb(args)
     .AddPlatformLogging()
     .AddPlatformPlugins()
-    .AddPlatformMinimalApi()
     .ConfigurePlatformWebApplicationBuilder(builder =>
-        builder.Services.AddHealthChecks().AddPluginHostHealthCheck())
-    .AddPlatformHealthChecks()
+    {
+        builder.Services.AddAuthorization();
+        builder.Services.AddHealthChecks().AddPluginHostHealthCheck();
+    })
+    .AddPlatformMinimalApi()
     .Build();
 
 var plugins = app.MapGroup("/api/plugins");

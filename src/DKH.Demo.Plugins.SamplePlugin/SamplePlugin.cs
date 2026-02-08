@@ -38,6 +38,8 @@ public sealed partial class SamplePlugin : PlatformPluginBase
         await using var scope = context.Services.CreateAsyncScope();
         var dbContext = scope.ServiceProvider.GetRequiredService<SamplePluginDbContext>();
 
+        await dbContext.Database.MigrateAsync(cancellationToken);
+
         var hasSettings = await dbContext.Settings.AnyAsync(cancellationToken);
         if (!hasSettings)
         {
