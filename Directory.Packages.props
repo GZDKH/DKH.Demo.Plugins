@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup Label="DKH.Platform">
-    <PackageVersion Include="DKH.Platform" Version="1.0.3" />
-    <PackageVersion Include="DKH.Platform.Plugins.Sdk" Version="1.0.3" />
-    <PackageVersion Include="DKH.Platform.Plugins.Host" Version="1.0.3" />
-    <PackageVersion Include="DKH.Platform.MinimalApi" Version="1.0.3" />
-    <PackageVersion Include="DKH.Platform.Logging" Version="1.3.0" />
+    <PackageVersion Include="DKH.Platform" Version="1.0.0" />
+    <PackageVersion Include="DKH.Platform.Plugins.Sdk" Version="1.0.0" />
+    <PackageVersion Include="DKH.Platform.Plugins.Host" Version="1.0.0" />
+    <PackageVersion Include="DKH.Platform.MinimalApi" Version="1.0.0" />
+    <PackageVersion Include="DKH.Platform.Logging" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup Label="EntityFrameworkCore">
