@@ -28,16 +28,16 @@ dotnet test DKH.Demo.Plugins.slnx -c Release     # all tests pass
 
 <!-- BEGIN LOCAL-CLAUDE-RULES -->
 
-## Additional Local Rules (.claude/rules)
+## Additional Local Rules (.gemini/rules)
 
 Before starting implementation, you MUST also read and follow these local rule files in this repository:
 
-- `.claude/rules/build-before-commit.md`
-- `.claude/rules/commits.md`
-- `.claude/rules/github-tasks.md`
-- `.claude/rules/gitlab-workflow.md`
-- `.claude/rules/no-duplication.md`
-- `.claude/rules/security.md`
+- `.gemini/rules/build-before-commit.md`
+- `.gemini/rules/commits.md`
+- `.gemini/rules/github-tasks.md`
+- `.gemini/rules/gitlab-workflow.md`
+- `.gemini/rules/no-duplication.md`
+- `.gemini/rules/security.md`
 
 These rules are mandatory and complement the baseline `AGENTS.md` and `DKH.Architecture` guidance.
 
