@@ -1,0 +1,1 @@
+../../../DKH.Architecture/.codex/shared-rules/build-dotnet.md

@@ -1,0 +1,1 @@
+../../../DKH.Architecture/.codex/shared-rules/github-tasks.md

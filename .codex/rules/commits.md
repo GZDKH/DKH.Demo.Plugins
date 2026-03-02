@@ -1,0 +1,1 @@
+../../../DKH.Architecture/.codex/shared-rules/commits.md
