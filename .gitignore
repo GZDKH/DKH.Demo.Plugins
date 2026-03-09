@@ -123,3 +123,6 @@ src/DKH.Demo.Plugins.Host/plugins/
 *.db
 *.db-shm
 *.db-wal
+
+# Ralph Loop task file (local only)
+PROMPT.md
