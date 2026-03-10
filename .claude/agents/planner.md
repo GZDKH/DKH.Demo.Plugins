@@ -1,0 +1,1 @@
+../../../DKH.Architecture/.claude/agents/planner.md

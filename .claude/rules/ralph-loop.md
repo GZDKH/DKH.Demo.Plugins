@@ -1,0 +1,1 @@
+../../../DKH.Architecture/.claude/shared-rules/ralph-loop.md
