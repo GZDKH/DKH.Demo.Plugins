@@ -126,3 +126,6 @@ src/DKH.Demo.Plugins.Host/plugins/
 
 # Ralph Loop task file (local only)
 PROMPT.md
+
+# Agent workflow (plans)
+plans/
