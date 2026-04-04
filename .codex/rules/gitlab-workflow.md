@@ -1,1 +1,1 @@
-../../../DKH.Architecture/.codex/shared-rules/gitlab-workflow.md
+../../../../../libraries/DKH.Architecture/.codex/shared-rules/gitlab-workflow.md

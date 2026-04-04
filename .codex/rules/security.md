@@ -1,1 +1,1 @@
-../../../DKH.Architecture/.codex/shared-rules/security.md
+../../../../../libraries/DKH.Architecture/.codex/shared-rules/security.md

@@ -1,1 +1,1 @@
-../../../DKH.Architecture/.codex/shared-rules/docs-after-impl.md
+../../../../../libraries/DKH.Architecture/.codex/shared-rules/docs-after-impl.md
