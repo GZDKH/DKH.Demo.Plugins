@@ -35,24 +35,6 @@ dotnet test DKH.Demo.Plugins.slnx -c Release     # all tests pass
 - Conventional Commits: `<type>(<scope>): <summary>`
 - Do NOT add `Co-Authored-By` or any author attribution to commits
 
-<!-- BEGIN LOCAL-CLAUDE-RULES -->
+## Shared Agent Rules
 
-## Additional Local Rules (.claude/rules)
-
-Before starting implementation, you MUST also read and follow these local rule files in this repository:
-
-- `.claude/rules/build-before-commit.md`
-- `.claude/rules/commits.md`
-- `.claude/rules/contracts.md`
-- `.claude/rules/docs-after-impl.md`
-- `.claude/rules/github-tasks.md`
-- `.claude/rules/gitlab-workflow.md`
-- `.claude/rules/no-duplication.md`
-- `.claude/rules/platform-release.md`
-- `.claude/rules/prod-config.md`
-- `.claude/rules/ralph-loop.md`
-- `.claude/rules/security.md`
-
-These rules are mandatory and complement the baseline `AGENTS.md` and `DKH.Architecture` guidance.
-
-<!-- END LOCAL-CLAUDE-RULES -->
+All mandatory rules (commits, security, gitlab-workflow, github-tasks, plan-execution, docs-after-impl, prod-debugging, prod-config, ralph-loop, contracts, platform-release, build-before-commit, no-duplication) are sourced from `agents/DKH.AgentRules` via the root monorepo `CLAUDE.md` import chain. No local copies are tracked in this repo.

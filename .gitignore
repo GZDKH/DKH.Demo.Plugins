@@ -116,6 +116,11 @@ _ReSharper.Caches/
 .gemini
 .claude/settings.local.json
 
+# Generated agent rule mirrors (sourced from agents/DKH.AgentRules via root CLAUDE.md)
+.claude/rules/
+.codex/rules/
+.gemini/rules/
+
 # Plugin output directory (populated by build)
 src/DKH.Demo.Plugins.Host/plugins/
 
