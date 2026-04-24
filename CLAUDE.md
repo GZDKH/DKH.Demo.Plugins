@@ -2,22 +2,6 @@
 
 Demo repository for validating the DKH.Platform plugin system.
 
-<!-- BEGIN REQUIRED-READING -->
-
-## Required Reading (MUST read before working)
-
-Before starting any task in this repository, you MUST read these files from DKH.Architecture:
-
-1. **[AGENTS.md](https://github.com/GZDKH/DKH.Architecture/blob/main/AGENTS.md)** — baseline rules for all repos
-2. **[agents-dotnet.md](https://github.com/GZDKH/DKH.Architecture/blob/main/docs/agents-dotnet.md)** — .NET specific rules
-3. **[github-workflow.md](https://github.com/GZDKH/DKH.Architecture/blob/main/docs/github-workflow.md)** — GitHub Issues & Project Board
-
-These files are located in the DKH.Architecture repository (located in the sibling `libraries/DKH.Architecture` folder relative to your workspace).
-
----
-
-<!-- END REQUIRED-READING -->
-
 ## Build and test
 
 ```bash
