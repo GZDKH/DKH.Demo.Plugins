@@ -1,4 +1,3 @@
-using DKH.Demo.Plugins.SamplePlugin;
 using DKH.Demo.Plugins.SamplePlugin.Extensions;
 using DKH.Platform.Plugins;
 using DKH.Platform.Plugins.Extensions;
