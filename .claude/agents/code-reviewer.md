@@ -1,1 +1,0 @@
-../../../DKH.Architecture/.claude/agents/code-reviewer.md
