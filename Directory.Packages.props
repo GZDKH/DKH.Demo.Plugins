@@ -20,7 +20,7 @@
     <!-- Keep the demo on the patched native SQLite used by DKH.Platform. -->
     <PackageVersion Include="SQLitePCLRaw.lib.e_sqlite3" Version="3.50.3" />
     <!-- DKH.Platform.MinimalApi 1.1.1 pulls Microsoft.OpenApi 2.0.0 transitively. -->
-    <PackageVersion Include="Microsoft.OpenApi" Version="2.12.0" />
+    <PackageVersion Include="Microsoft.OpenApi" Version="2.12.2" />
   </ItemGroup>
 
   <ItemGroup Label="Testing">
